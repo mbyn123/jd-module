@@ -95,6 +95,7 @@
                     margin-left: 5px;
                     padding: 0 4px;
                     vertical-align: 1px;
+                    border: 1px solid red;
                 }
             }
             dd{

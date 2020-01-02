@@ -1,5 +1,5 @@
 <template>
-    <panel :class="$style.panel" titile="公司信息">
+    <panel :class="[$style.panel,cname]" titile="公司信息">
         <section :class="$style.content">
             <ul>
                 <li :class="$style.help">
@@ -31,6 +31,12 @@
         name: "Footer",
         components: {
             panel
+        },
+        props:{
+            cname:{
+                type:String,
+                default:''
+            }
         },
         data() {
             return {

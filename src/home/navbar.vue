@@ -26,7 +26,7 @@
                  </router-link>
              </div>
              <div>
-                 <router-link :to="{name:'download'}">
+                 <router-link :to="{name:'home'}">
                      <img src="//img12.360buyimg.com/jrpmobile/jfs/t3340/68/639059082/2591/800e2d6b/580f51cdN4caf20b2.png?width=66&height=66" alt="">
                      <p>我的</p>
                  </router-link>
@@ -59,6 +59,7 @@
             @include evenly;
             text-align: center;
             padding: 5px 0;
+            margin-bottom: -1px;
             img{
                 width: 25px;
                 margin-bottom: 5px;
